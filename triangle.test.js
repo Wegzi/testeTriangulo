@@ -5,7 +5,7 @@ test('Teste triangulo', () => {
   //true values
   expect(triangle(1, 1, 1)).toBe('Equilatero');
   expect(triangle(2, 2, 3)).toBe('Isoseles');
-  expect(triangle(2, 3, 3)).toBe('Isoseles');
+  expect(triangle(2, 4, 5)).toBe('Escaleno');
 
   // valores inválidos
   expect(triangle(2, 3, 6)).toBe('Invalido');
